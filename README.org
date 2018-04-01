@@ -15,9 +15,11 @@ The suite of extremely useful LibGDX tools are hidden behind lots of documentati
 
 What this does is clone this repo into ~/opt/libgdx-tools~.  Then it downloads the latest LibGDX nightly build with fbx-conv.  Then it links some scripts into ~/usr/bin~ for allow for easy execution from the command line.
 
-~fbx-conv~ will run fbx-conv.
-~texture-packer~ will run the LibGDX Texture Packer.
-~tiled-packer~ will run the LibGDX Tiled Packer.
+- ~fbx-conv~ will run fbx-conv.
+
+- ~texture-packer~ will run the LibGDX Texture Packer.
+
+- ~tiled-packer~ will run the LibGDX Tiled Packer.
 
 ~fbx-conv~ is currently linked with Linux executable, however can be changed in ~install.sh~ to work on MacOS.
 
