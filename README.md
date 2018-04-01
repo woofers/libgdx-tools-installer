@@ -6,9 +6,11 @@ The suite of extremely useful LibGDX tools are hidden behind lots of documentati
 
 ## Usage
 
-### Installation
+Specific info on usage of the LibGDX tools can be found [here.](https://libgdx.badlogicgames.com/tools.html)
 
-**Warning:** The scripts provided are very simple and have minimal logical.  It could possible execute unexpected actions if `/opt/libdx-tools` already exists. Use at your own risk!
+**Warning:** The installation scripts provided are very simple and have minimal logical.  It could possible execute unexpected actions if `/opt/libdx-tools` already exists. Use at your own risk!
+
+### Installation
 
 Simply run `wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/install.sh | sudo bash`
 
