@@ -2,7 +2,7 @@
 #+TITLE:	libgdx-tools-installer
 #+AUTHOR:	Jaxson Van Doorn
 #+EMAIL:	jaxson.vandoorn@gmail.com
-#+OPTIONS:  num:nil
+#+OPTIONS:  num:nil toc:nil
 
 * libgdx-tools-installer
 *A simple script to install LibGDX Command Line Tools*
