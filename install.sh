@@ -13,6 +13,6 @@ rm libgdx-nightly-latest.zip
 cd libgdx
 wget http://libgdx.badlogicgames.com/fbx-conv/fbx-conv.zip
 unzip fbx-conv.zip -d fbx-conv
-sudo ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
-sudo ln -s "/opt/libgdx-tools/libgdx/fbx-conv/libfbxsdk.so" "/usr/lib64/libfbxsdk.so"
+ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
+ln -s "/opt/libgdx-tools/libgdx/fbx-conv/libfbxsdk.so" "/usr/lib64/libfbxsdk.so"
 rm fbx-conv.zip
