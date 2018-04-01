@@ -12,7 +12,7 @@ The suite of extremely useful LibGDX tools are hidden behind lots of documentati
 ** Usage
 *** Installation
 
-*Warning:* The scripts provided are very simple and have minimal logical.  It could possible conflict if ~/opt/libdx-tools~ already exists and execute unexpected actions. Use at your own risk!
+*Warning:* The scripts provided are very simple and have minimal logical.  It could possible execute unexpected actions if ~/opt/libdx-tools~ already exists. Use at your own risk!
 
 ~wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/install.sh | sudo bash~
 
