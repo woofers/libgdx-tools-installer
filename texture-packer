@@ -2,4 +2,4 @@ in=${1:-""}
 out=${2:-""}
 pack=${2:-""}
 
-java -cp libgdx/gdx.jar:libgdx/extensions/gdx-tools/gdx-tools.jar com.badlogic.gdx.tools.texturepacker.TexturePacker in out pack
+java -cp libgdx/gdx.jar:libgdx/extensions/gdx-tools/gdx-tools.jar com.badlogic.gdx.tools.texturepacker.TexturePacker $in $out $pack
