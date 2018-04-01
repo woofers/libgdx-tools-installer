@@ -33,9 +33,11 @@ The suite of extremely useful LibGDX tools are hidden behind lots of documentati
 
 ### Uninstallation<a id="sec-1-1-2" name="sec-1-1-2"></a>
 
-`wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/uninstall.sh | sudo bash`
+Run the `uninstall.sh` in `/opt/libgdx-tools` with `sudo ./uninstall.sh`.
 
 ### Update<a id="sec-1-1-3" name="sec-1-1-3"></a>
+
+Run the `update.sh` in `/opt/libgdx-tools` with `sudo ./update.sh`.
 
 ## Acknowledgments<a id="sec-1-2" name="sec-1-2"></a>
 
