@@ -1,0 +1,7 @@
+in=${1:-""}
+out=${2:-""}
+unused=${3:-""}
+combine=${4:-""}
+va=${5:-"" }
+
+java -cp /opt/libgdx-tools/libgdx/gdx.jar:/opt/libgdx-tools/libgdx/gdx-natives.jar:/opt/libgdx-tools/libgdx/gdx-backend-lwjgl.jar:/opt/libgdx-tools/libgdx/gdx-backend-lwjgl-natives.jar:/opt/libgdx-tools/libgdx/gdx-tiled-preprocessor.jar:/opt/libgdx-tools/libgdx/extensions/gdx-tools/gdx-tools.jar com.badlogic.gdx.tiledmappacker.TiledMapPacker $in $out $unused $combine $va
