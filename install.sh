@@ -9,7 +9,9 @@ wget https://libgdx.badlogicgames.com/nightlies/libgdx-nightly-latest.zip
 unzip libgdx-nightly-latest.zip -d libgdx
 rm libgdx-nightly-latest.zip
 
+# Alias Commands
 ln -s "/opt/libgdx-tools/texture-packer" "/usr/bin/texture-packer"
+ln -s "/opt/libgdx-tools/tiled-packer" "/usr/bin/tiled-packer"
 
 # fbx-conv
 cd libgdx
