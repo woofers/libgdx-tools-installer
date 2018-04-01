@@ -1,0 +1,5 @@
+in=${1:-""}
+out=${2:-""}
+pack=${2:-""}
+
+java -cp gdx.jar:extensions/gdx-tools/gdx-tools.jar com.badlogic.gdx.tools.texturepacker.TexturePacker in out pack
