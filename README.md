@@ -4,7 +4,14 @@
 <ul>
 <li><a href="#sec-1">libgdx-tools-installer</a>
 <ul>
-<li><a href="#sec-1-1">Acknowledgments</a></li>
+<li><a href="#sec-1-1">Usage</a>
+<ul>
+<li><a href="#sec-1-1-1">Installation</a></li>
+<li><a href="#sec-1-1-2">Uninstallation</a></li>
+<li><a href="#sec-1-1-3">Update</a></li>
+</ul>
+</li>
+<li><a href="#sec-1-2">Acknowledgments</a></li>
 </ul>
 </li>
 </ul>
@@ -18,6 +25,16 @@
 
 The suite of extremely useful LibGDX tools are hidden behind lots of documentation and long commands.  The `libgdx-tools-installer` aliases all these tools and install them, as well as their GUI counterparts.
 
-## Acknowledgments<a id="sec-1-1" name="sec-1-1"></a>
+## Usage<a id="sec-1-1" name="sec-1-1"></a>
+
+### Installation<a id="sec-1-1-1" name="sec-1-1-1"></a>
+
+`wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/install.sh | sudo bash`
+
+### Uninstallation<a id="sec-1-1-2" name="sec-1-1-2"></a>
+
+### Update<a id="sec-1-1-3" name="sec-1-1-3"></a>
+
+## Acknowledgments<a id="sec-1-2" name="sec-1-2"></a>
 
 -   **GPL 3.0 2018**, *Jaxson Van Doorn*
