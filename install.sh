@@ -4,7 +4,7 @@ cd /opt
 git clone https://github.com/woofers/libgdx-tools-installer libgdx-tools
 
 # LibGDX Nightly
-cd libgdx
+cd libgdx-tools
 wget https://libgdx.badlogicgames.com/nightlies/libgdx-nightly-latest.zip
 unzip libgdx-nightly-latest.zip -d libgdx
 rm libgdx-nightly-latest.zip
