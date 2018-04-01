@@ -33,6 +33,8 @@ The suite of extremely useful LibGDX tools are hidden behind lots of documentati
 
 ### Uninstallation<a id="sec-1-1-2" name="sec-1-1-2"></a>
 
+`wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/uninstall.sh | sudo bash`
+
 ### Update<a id="sec-1-1-3" name="sec-1-1-3"></a>
 
 ## Acknowledgments<a id="sec-1-2" name="sec-1-2"></a>
