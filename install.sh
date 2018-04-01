@@ -9,6 +9,8 @@ wget https://libgdx.badlogicgames.com/nightlies/libgdx-nightly-latest.zip
 unzip libgdx-nightly-latest.zip -d libgdx
 rm libgdx-nightly-latest.zip
 
+ln -s "/opt/libgdx-tools/texture-packer" "/usr/bin/texture-packer"
+
 # fbx-conv
 cd libgdx
 wget http://libgdx.badlogicgames.com/fbx-conv/fbx-conv.zip
