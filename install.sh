@@ -1,5 +1,5 @@
 
-
+# Clone Repo
 cd /opt
 git clone https://github.com/woofers/libgdx-tools-installer libgdx-tools
 
@@ -10,6 +10,7 @@ unzip libgdx-nightly-latest.zip -d libgdx
 rm libgdx-nightly-latest.zip
 
 # fbx-conv
+cd libgdx
 wget http://libgdx.badlogicgames.com/fbx-conv/fbx-conv.zip
 unzip fbx-conv.zip -d fbx-conv
 sudo ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
