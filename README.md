@@ -12,13 +12,17 @@ Specific info on usage of the LibGDX tools can be found [here.](https://libgdx.b
 
 ### Installation
 
-Simply run `wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/install.sh | sudo bash`
+Simply run `sudo wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/install.sh | sudo bash`
 
 What this does is clone this repo into `/opt/libgdx-tools`.  Then it downloads the latest LibGDX nightly build with fbx-conv.  Then it links some scripts into `/usr/bin` for allow for easy execution from the command line.
 
 -   `fbx-conv` will run fbx-conv.
 
+-   `fbx-conv-gui` will run fbx-conv as a GUI (Documentation found [here](https://github.com/ASneakyFox/libgdx-fbxconv-gui)).
+
 -   `texture-packer` will run the LibGDX Texture Packer.
+
+-   `texture-packer-gui` will run the LibGDX Texture Packer as a GUI (Documentation found [here](https://github.com/crashinvaders/gdx-texture-packer-gui)).
 
 -   `tiled-packer` will run the LibGDX Tiled Packer.
 
