@@ -1,3 +1,4 @@
+#!/bin/bash
 
 # Create .gdxtools
 echo -n "export GDXTOOLS=" > ~/.gdxtools
