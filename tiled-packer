@@ -7,4 +7,4 @@ va=${5:-"" }
 
 source ~/.gdxtools
 
-java -cp $GDXTOOLS/libgdx-tools/libgdx/gdx.jar:/opt/libgdx-tools/libgdx/gdx-natives.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-backend-lwjgl.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-backend-lwjgl-natives.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-tiled-preprocessor.jar:$GDXTOOLS/libgdx-tools/libgdx/extensions/gdx-tools/gdx-tools.jar com.badlogic.gdx.tiledmappacker.TiledMapPacker $in $out $unused $combine $va
+java -cp $GDXTOOLS/libgdx-tools/libgdx/gdx.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-natives.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-backend-lwjgl.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-backend-lwjgl-natives.jar:$GDXTOOLS/libgdx-tools/libgdx/gdx-tiled-preprocessor.jar:$GDXTOOLS/libgdx-tools/libgdx/extensions/gdx-tools/gdx-tools.jar com.badlogic.gdx.tiledmappacker.TiledMapPacker $in $out $unused $combine $va
