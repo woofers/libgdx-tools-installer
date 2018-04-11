@@ -1,5 +1,7 @@
 
-cd /opt/libgdx-tools
+source ~/.gdxtools
+
+cd $GDXTOOLS/libgdx-tools
 
 rm -rf libgdx
 

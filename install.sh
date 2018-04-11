@@ -1,6 +1,9 @@
 
+# Create .gdxtools
+echo -n "export GDXTOOLS=" > ~/.gdxtools
+pwd >> ~/.gdxtools
+
 # Clone Repo
-cd /opt
 git clone https://github.com/woofers/libgdx-tools-installer libgdx-tools
 
 # LibGDX Nightly

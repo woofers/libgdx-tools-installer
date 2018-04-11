@@ -1,1 +1,4 @@
-java -jar /opt/libgdx-tools/libgdx/fbx-conv/fbxconv-gui.jar
+
+source ~/.gdxtools
+
+java -jar $GDXTOOLS/libgdx-tools/libgdx/fbx-conv/fbxconv-gui.jar
