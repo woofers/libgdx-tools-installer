@@ -14,7 +14,7 @@ Specific info on usage of the LibGDX tools can be found [here.](https://libgdx.b
 
 Simply run `sudo wget -O - https://raw.githubusercontent.com/woofers/libgdx-tools-installer/master/install.sh | sudo bash`
 
-What this does is clone this repo into `/opt/libgdx-tools`.  Then it downloads the latest LibGDX nightly build with fbx-conv.  Then it links some scripts into `/usr/bin` for allow for easy execution from the command line.
+What this does is clone this repo into a folder in the current directory nammed `libgdx-tools`.  It stores the install location into `~/.gdxtools`. Then it downloads the latest LibGDX nightly build with fbx-conv.  Then it links some scripts into `/usr/bin` for allow for easy execution from the command line.
 
 -   `fbx-conv` will run fbx-conv.
 
