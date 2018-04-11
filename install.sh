@@ -36,10 +36,8 @@ ln -s "/opt/libgdx-tools/texture-packer-gui" "/usr/bin/texture-packer-gui"
 ln -s "/opt/libgdx-tools/tiled-packer" "/usr/bin/tiled-packer"
 ln -s "/opt/libgdx-tools/fbx-conv-gui" "/usr/bin/fbx-conv-gui"
 
-if [[ "$OSTYPE" == "linux-gnu" ]]; then
-    ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
-elif [[ "$OSTYPE" == "darwin"* ]]; then
+if [[ "$OSTYPE" == "darwin"* ]]; then
     ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-mac" "/usr/bin/fbx-conv"
 else
-    echo "fbx-conv not supported on current OS"
+    ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
 fi
