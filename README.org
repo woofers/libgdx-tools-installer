@@ -34,6 +34,6 @@ What this does is clone this repo into a folder in the current directory named ~
 ~fbx-conv~ is currently linked with the Linux executable, however can be changed in ~install.sh~ to work on MacOS.
 
 *** Uninstallation
-Run the ~uninstall.sh~ in ~/opt/libgdx-tools~ with ~sudo ./uninstall.sh~.
+Run the ~uninstall.sh~ in the install directory with ~sudo ./uninstall.sh~.
 *** Update
-Run the ~update.sh~ in ~/opt/libgdx-tools~ with ~sudo ./update.sh~.
+Run the ~update.sh~ in the install directory with ~sudo ./update.sh~.
