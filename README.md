@@ -30,8 +30,6 @@ What this does is clone this repo into a folder in the current directory named `
 
 -   `tiled-packer` will run the LibGDX Tiled Packer.
 
-`fbx-conv` is currently linked with the Linux executable, however can be changed in `install.sh` to work on MacOS.
-
 
 ### Uninstallation
 
