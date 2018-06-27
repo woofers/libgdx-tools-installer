@@ -3,6 +3,7 @@
 # Create .gdxtools
 echo -n "export GDXTOOLS=" > ~/.gdxtools
 pwd >> ~/.gdxtools
+source ~/.gdxtools
 
 # Clone Repo
 git clone https://github.com/woofers/libgdx-tools-installer libgdx-tools
@@ -17,7 +18,7 @@ rm libgdx-nightly-latest.zip
 cd libgdx
 wget http://libgdx.badlogicgames.com/fbx-conv/fbx-conv.zip
 unzip fbx-conv.zip -d fbx-conv
-ln -s "/opt/libgdx-tools/libgdx/fbx-conv/libfbxsdk.so" "/usr/lib64/libfbxsdk.so"
+ln -s "$GDXTOOLS/libgdx-tools/libgdx/fbx-conv/libfbxsdk.so" "/usr/lib64/libfbxsdk.so"
 rm fbx-conv.zip
 
 # fbx-conv GUI
@@ -31,13 +32,13 @@ unzip gdx-texturepacker-4.6.0.zip -d texture-packer-gui
 cd texture-packer-gui
 
 # Alias Commands
-ln -s "/opt/libgdx-tools/texture-packer" "/usr/bin/texture-packer"
-ln -s "/opt/libgdx-tools/texture-packer-gui" "/usr/bin/texture-packer-gui"
-ln -s "/opt/libgdx-tools/tiled-packer" "/usr/bin/tiled-packer"
-ln -s "/opt/libgdx-tools/fbx-conv-gui" "/usr/bin/fbx-conv-gui"
+ln -s "$GDXTOOLS/libgdx-tools/texture-packer" "/usr/bin/texture-packer"
+ln -s "$GDXTOOLS/libgdx-tools/texture-packer-gui" "/usr/bin/texture-packer-gui"
+ln -s "$GDXTOOLS/libgdx-tools/tiled-packer" "/usr/bin/tiled-packer"
+ln -s "$GDXTOOLS/libgdx-tools/fbx-conv-gui" "/usr/bin/fbx-conv-gui"
 
 if [[ "$OSTYPE" == "darwin"* ]]; then
-    ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-mac" "/usr/bin/fbx-conv"
+    ln -s "$GDXTOOLS/libgdx-tools/libgdx/fbx-conv/fbx-conv-mac" "/usr/bin/fbx-conv"
 else
-    ln -s "/opt/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
+    ln -s "$GDXTOOLS/libgdx-tools/libgdx/fbx-conv/fbx-conv-lin64" "/usr/bin/fbx-conv"
 fi
