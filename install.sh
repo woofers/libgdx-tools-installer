@@ -21,14 +21,18 @@ unzip fbx-conv.zip -d fbx-conv
 ln -s "$GDXTOOLS/libgdx-tools/libgdx/fbx-conv/libfbxsdk.so" "/usr/lib64/libfbxsdk.so"
 rm fbx-conv.zip
 
+# Set GUI Versions
+FBX_GUI=1.5
+TEXTURE_PACKER_GUI=4.6.0
+
 # fbx-conv GUI
 cd fbx-conv
-wget https://github.com/ASneakyFox/libgdx-fbxconv-gui/releases/download/1.5/fbxconv-gui.jar
+wget https://github.com/ASneakyFox/libgdx-fbxconv-gui/releases/download/$FBX_GUI/fbxconv-gui.jar
 cd ..
 
 # texture-packer GUI
-wget https://github.com/crashinvaders/gdx-texture-packer-gui/releases/download/4.6.0/gdx-texturepacker-4.6.0.zip
-unzip gdx-texturepacker-4.6.0.zip -d texture-packer-gui
+wget https://github.com/crashinvaders/gdx-texture-packer-gui/releases/download/$TEXTURE_PACKER_GUI/gdx-texturepacker-$TEXTURE_PACKER_GUI.zip
+unzip gdx-texturepacker-$TEXTURE_PACKER_GUI.zip -d texture-packer-gui
 cd texture-packer-gui
 
 # Alias Commands
