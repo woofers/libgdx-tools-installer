@@ -1,6 +1,5 @@
 #!/bin/bash
 
-git pull
-
 ./uninstall.sh
+git pull
 ./install.sh
