@@ -23,7 +23,7 @@ rm fbx-conv.zip
 
 # Set GUI Versions
 FBX_GUI=1.5
-TEXTURE_PACKER_GUI=4.6.0
+TEXTURE_PACKER_GUI=4.7.3
 
 # fbx-conv GUI
 cd fbx-conv
